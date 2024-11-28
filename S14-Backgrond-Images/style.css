@@ -1,0 +1,39 @@
+.businessMenDiv{
+width: 300px;
+border: 4px solid black;
+background-color: yellowgreen;
+display: inline-block;
+text-align: center;
+padding: 20px;
+margin: 20px;
+
+}
+.businessMenDiv p{
+    text-align: justify;
+}
+.businessMenPic{
+    width: 200px;
+    height: 200px;}
+#mahindraDiv{ border: 20px dotted blue;
+    padding: 3px;
+    background-image: url("./images/mahindra-logo.png");
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-color: brown;
+background-clip: border-box;
+}
+#wiproDiv{
+    background-image: url("./images/Wipro_Logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}    
+#bajajDiv{
+    background-image: url("./images/bajaj-logo-png.webp");
+    background-attachment: fixed;
+}
+
+body{
+    /*background-image: url("./images/Nautical_Star-logo.2small.png");*/
+}
